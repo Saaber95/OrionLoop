@@ -23,12 +23,13 @@ async def process_help_command(message: types.Message):
 @dp.message_handler(commands=['send'])
 async def process_help_command(message: types.Message):
     await message.reply("Введите имя  чегото")
+    print ("лошара")
 #    await message.reply("Введите имя  чегото")
 
 @dp.message_handler()
 async def echo_message(msg: types.Message):
     await bot.send_message(msg.from_user.id, msg.text)
-
+    await message.answer("Привет Лошара")
 
 
 
