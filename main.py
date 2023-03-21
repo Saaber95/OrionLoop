@@ -2,15 +2,15 @@ from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
-from PIL import Image
+# from PIL import Image
 FlowersNames  = ["d:\OrionLoop\AST-BL-01_02.jpg",
                 "d:\OrionLoop\AST-BU-01_01.jpg",
                 "d:\OrionLoop\AST-BU-02_01.jpg" ]
 
-img1 = Image.open(FlowersNames[0],'rb' )
-print(img1)
-img2 = Image.open(FlowersNames[1],'rb')
-img3 = Image.open(FlowersNames[2],'rb')
+# img1 = Image.open(FlowersNames[0],'rb' )
+# print(img1)
+# img2 = Image.open(FlowersNames[1],'rb')
+# img3 = Image.open(FlowersNames[2],'rb')
 
 # from config import TOKEN
 
